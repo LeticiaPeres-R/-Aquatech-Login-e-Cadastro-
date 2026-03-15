@@ -1,0 +1,231 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+/* #region header */
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #000407;
+    border-bottom: 4px solid #59c7de;
+}
+
+.header .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header .titulo {
+    color: #49b8d4;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+.header .navbar {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.header .navbar a {
+    color: #d2a767;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header .navbar li {
+    display: flex;
+    align-items: center;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    color: #d2a767;
+    font-size: 18px;
+}
+
+/* #endregion */
+/* #region banner*/
+.banner {
+    width: 100%;
+    height: 530px;
+    background-image: url("/public/assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.banner .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.banner p{
+    font-size: 2.2rem;
+    line-height: 1.4;
+    text-align: left;
+    margin-left: 320px;
+}
+/* #endregion */
+/*#region conteudo */
+.social {
+    width: 100%;
+    height: 400px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .boxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.social .box {
+    width: 260px;
+    text-align: center;
+}
+
+.social .box img {
+    width: 140px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.social .box h4 {
+    color: #d32f6e;
+    margin: 10px 0 12px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.social .box p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #000;
+}
+/* #endregion */
+/* #region footer */
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #49b8d4;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+/* #endregion */
+/* #region login */
+.login{
+    width: 100%;
+    height: 550px;
+    background-image: url(/public/assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .container{
+    width: 50%;
+    height: 350px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .card{
+    color: #d32f6e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login .card input{
+    width: 550px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #49b8d4;
+}
+
+.login .card h2{
+    font-size: 28px;
+}
+
+.login .campo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 600;
+    width: 550px;
+}
+
+.login .formulario{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.login .formulario button{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    align-self: center;
+    margin-top: 10px;
+    background-color: #d32f6e;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* #endregion */
+/* #region cadastro*/
+.login .containe{
+    width: 50%;
+    height: 500px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #endregion*/
